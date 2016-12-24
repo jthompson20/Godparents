@@ -1,0 +1,107 @@
+[
+	{
+		"skill":	"IFTTT",
+		"command":	"Alexa trigger find my phone",
+		"response":	"Phone Call"
+	},
+	{
+		"skill":	"IFTTT",
+		"command":	"Alexa, read the shopping list",
+		"response":	"SMS"
+	},
+	{
+		"skill":	"IFTTT",
+		"command":	"Alexa, read the to-do list",
+		"response":	"SMS"
+	},
+	{
+		"skill":	"IFTTT",
+		"command":	"Alexa trigger volume down\/up",
+		"response":	"API"
+	},
+	{
+		"skill":	"IFTTT",
+		"command":	"Alexa trigger mute\/unmute",
+		"response":	"API"
+	},
+	{
+		"skill":	"IFTTT",
+		"command":	"Alexa trigger shutdown\/reboot",
+		"response":	"API"
+	},
+	{
+		"skill":	"IFTTT",
+		"command":	"Alexa trigger an insult to Steven",
+		"response":	"API"
+	},
+	{
+		"skill":	"iHeartRadio",
+		"command":	"Alexa play iHeartRadio [station]",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"Quick Events",
+		"command":	"Alexa, tell quick events ..",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"Earplay",
+		"command":	"Alexa, start Earplay",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"FOX Sports",
+		"command":	"What is my flash briefing?",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"NPR",
+		"command":	"What is my flash briefing?",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"Food Network",
+		"command":	"Alexa, ask Food Network ..",
+		"response":"Alexa"
+	},
+	{
+		"skill":	"Jeopardy (J6)",
+		"command":	"Alexa, play jeopardy",
+		"response":"Alexa"
+	},
+	{
+		"skill":	"The Bartender",
+		"command":	"Alexa, ask the bartender ..",
+		"response":"Alexa"
+	},
+	{
+		"skill":	"Yahoo Fantasy Football",
+		"command":	"Alexa, ask Yahoo Fantasy Football ..",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"Fantasy Football Nerd",
+		"command":	"Alexa, ask Fantasy Football Nerd ..",
+		"response":"Alexa"
+	},
+	{
+		"skill":	"Twenty Questions",
+		"command":	"Alexa, play Twenty Questions",
+		"response":"Alexa"
+	},
+	{
+		"skill":	"Gluten Free",
+		"command":	"Alexa, ask Gluten Free ..",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"Tide",
+		"command":	"Alexa, ask Tide ..",
+		"response":	"Alexa"
+	},
+	{
+		"skill":	"Alexa",
+		"command":	"Alexa, how is traffic?",
+		"response":	"Alexa"
+	}
+]
