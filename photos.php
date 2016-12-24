@@ -39,7 +39,7 @@
 							<?php foreach ($photos AS $photo): ?>
 
 								<div class="col-xs-12 col-lg-4">
-									<img class="img-responsive" src="/img/photos/<?php echo $photo; ?>" />
+									<img class="img-responsive" src="img/photos/<?php echo $photo; ?>" />
 								</div>
 
 							<?php endforeach; ?>
