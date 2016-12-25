@@ -63,6 +63,8 @@
 
 						<p>... and I guess that about sums it up for me.  I want you to both know that I love you very much .. and want to wish you a very Merry Christmas!</p>
 
+						<p>In case you missed it, here is a <a href="photos.php">link to some photos</a> that we've taken throughout the year!</p>
+
 						<p><strong>Matt</strong></p>
 
 					</div>
