@@ -48,7 +48,11 @@
 						<p>In regards to her food allergy, she has gotten sick once or twice this year (because of accidental ingestion of gluten), however I feel like we (and she) has a much better feel about what her allergy is - and how to circumvent it.  It has been a big learning process for her mother and I (mostly her mother), but the first time you see her get sick off of gluten for a 6 hour spell, you do everything in your power to make sure it doesn't happen again</p> 
 
 						<p><strong><u>Jess</u></strong></p>
-						<p>Jess has continuously been the engine of this train.  </p>
+						<p>Jess has also had an up and down year this year.  Earlier in the year, she lost her Aunt, which was a hard time for both her and her family.  On top of that, her mother and her fathers' family have had a big falling out - which has forced Jess to be in the middle of it all.  Without getting into too many details, Jess has served as the defacto intermediary between the sides.  It's a fine line that she walks in order to stay on both sides' good graces (unfortunately)</p>
+
+						<p>In brighter news, I finally think Jess has gotten the new house decorated to her liking (for now!).  She was able to furnish our sun room, which was the last room on the list.  This year, she has also learned that she is excellent at crafts!  This seems like a hobby that she has really started to enjoy, and isn't afraid to start or try something new.</p>
+
+						<p>Jess has continuously been the engine of our families' train.  She cook, cleans, runs our errands, picks up kids from their activities, keeps our schedule, takes care of us when we're sick, etc..  She is a great wife, and an even better mother.  I am so lucky to have her in my life.</p>
 
 						<p><strong><u>Me</u></strong></p>
 						<p>This has been a rollar coaster of a year for me.  As I'm sure you both know, I lost my sister this year.  That was one of the toughest times that I've had to endure in all of my life.  I have been fortunate enough that I have not had to see a lot of death throughout my life, however I have now learned that this inexperience has also made it harder for me to cope/grieve.  </p>
