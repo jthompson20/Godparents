@@ -63,7 +63,7 @@
 
 						<p>Having the flexibility of working from home has also allowed me to continue exploring my newly found love for Electrical Engineering and Artificial Intelligence.  I was able to combine both passions earlier this year when I built a system that was able to detect household objects (see picture below).  My more recent AI projects are based around "self learning" AI - meaning that the machine continually retrains itself based on past experiences.</p>
 
-						<p><img class="img-responsive" src="img/AI.jpeg"/></p>
+						<p><center><img class="img-responsive" src="img/AI.jpeg"/></center></p>
 
 						<p>I've also been working on creating "Alexa Skills".  These are basically apps for the Amazon Alexa devices.  Some of my skills have become so popular that Amazon has actually started paying me for some of them (as well as sending a bunch of cool SWAG).  I'm still waiting on my billion dollar idea, but I believe that everything that I've been learning is getting me one step closer.</p>
 
