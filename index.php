@@ -24,46 +24,52 @@
 					<div class="panel-heading" id="accordion"><svg class="glyph stroked email"><use xlink:href="#stroked-email"></use></svg> For My Godparents</div>
 					<div class="panel-body">
 						
-						<p><strong>Dear Godparents,</strong></p>
+						<p><strong>To My Godparents,</strong></p>
 
-						<p>Another year, another letter.  I do hope that you both enjoy receiving this gift as much as I enjoy writing it.  </p>
+						<p>Here we are again!  Another year in the books, another Christmas Season upon us, and another chance for me to take some time to reflect.</p>
 
-						<p>I know that you both have had HUGE years this year!  From Uncle David (lead broadway roles, stark county most famous, etc..) to Aunt Kathy (traveling the world, on her 3rd grandchild in as many years (fact check?), etc..) I am inspired by the role models that you both are, as well as the success that you both have had.</p>
+						<!--
+						<p>Before I start, I want you to know that I am very thankful to have so many inspriing people in my life to look up to.  I want to take a quick minute to let you both know how you've impacted my life:</p>
 
-						<p>I would like to share a little bit about <i>our</i> year.  The good, the bad, and the ugly ..</p>
+						<p>Aunt Kathy: the mother and grandmother that you have proven to be.  I know that it is not easy being so far away from ones that you love, yet you constantly find the time and energy to be seemingly everywhere at once.  The way that you put everybody else's needs before your own. 
+
+						<p>Uncle David: it's very easy to see that you have a such a positive impact on so many people.  So many people that see you as apart of their family, because of how kind, funny and loving that you are &mdash; to everybody.  You seem to have friend's all over the world, and I know that's because 
+					
+						<p>I'm greatful to have influences like you both in my life, and I do not take that for granted.</p>
+						-->
+
 
 						<p><strong><u>Maci</u></strong></p>
-						<p>Maci has had an exciting year in 2016.  This year, she started kindergarten.  Kindergarten has been very different from preschool.  Instead of going to school for 3 hours per day, she now goes for 8 hours per day.  She has been loving every minute of it.  Her favorite subjects are Reading, Math and Gym.</p>
+						<p>This has been another exciting year for Maci.  She has lost a total of 4 teeth this year (with a 5th very wobbly as we speak).  She started 1st grade this year and has continued to excel in school (reading at a 4th grade level!).  Her teacher(s) also have nothing but really good things to say about her.  She's a great student, with a big thirst for knowledge. </p>
 
-						<p>We have been lucky that she has a great teach in Ms. Williams.  She has made it an easy transition from a school where Aunt Cynthia is there 100% of the time (we were go grateful for the peace of mind that gave us) .  Of course, they keep track of everything digitally nowadays.  We have weekly (if not daily) "notifications" from Ms. Williams about what they're doing in school.  We get alerts when she does new art projects (and of course, there's an upsell to buy the coffee mug with your child's artwork on it - hah).</p>
-
-						<p>Maci's also does a lot of extra curricular activities.  From gymnastics, to ballet, to swimming to soccer, she keeps herself busy.  At the beginning of the year, I would've said soccer was her favorite sport, however as she progresses, she has found a calling in gymnastics.  She LOVES to play board games, and is VERY competitive.  She is a sore loser at times, which has been hard to correct - but I love the competitiveness in her.</p>
+						<p>Maci's also involved in a lot of extra curricular activities.  A normal week includes gymnastics, swimming and soccer.  At the beginning of the year, I would've said soccer was her favorite sport, however as she has progressed, she has really fell in love with gymnastics.  She still loves to play board games, and is extremely competitive.</p>
 
 						<p><strong><u>Lillian</u></strong></p>
+						<p>Lillian has had a very good year this year!  She turned 5 in May, and started Kindergarten at Middlebranch (same school as Maci).  It was a little adjustment going from Westbrook (Aunt Cynthia's school) a few days a week, to being in Kindergarten all day for 5 days a week, but Lillian has loved it.  Her favorite subject is Music.</p>
 
-						<p>Lillian's year had a rough start.  She started it off by breaking her collar bone (she was jumping on our chaise lounge and took an ackward tumble).  Initially, doctors were concerned because this was her second broken bone in as many years, but soon realized that she is just a clumsy Thompson :P  However, since then, she has been an unstoppable force.  She, too, has taken a big interest in gymnastics (I still cringe everytime she does a summersault). </p>
-
-						<p>Lillian also started soccer this year - which was a HUGE step (last year, she quit after the first time she got knocked down).  She has also taken a big step "socially" as well.  She now goes to a school where her big sister and favorite teach (Mrs. Sliman) are no longer there to help guide her on a day-to-day basis - and she is doing great.  Don't get me wrong, she is still a shy/coy young lady - but she has made a lot of new friends, and even went to her first birthday party at Chuck E Cheese.</p>
-
-						<p>In regards to her food allergy, she has gotten sick once or twice this year (because of accidental ingestion of gluten), however I feel like we (and she) has a much better feel about what her allergy is - and how to circumvent it.  It has been a big learning process for her mother and I (mostly her mother), but the first time you see her get sick off of gluten for a 6 hour spell, you do everything in your power to make sure it doesn't happen again</p> 
+						<p>She also has made a lot of new friends this year (even though she is still our shy Lily).  She loves taking ballet lessons and also enjoys playing Soccer in the spring and fall (her and Maci weren't on the same team last season, either - so it was nice to see her not be so dependant on her big sister).  Her favorite things to do at home are to dance and do her own hair.</p>
 
 						<p><strong><u>Jess</u></strong></p>
-						<p>Jess has also had an up and down year this year.  Earlier in the year, she lost her Aunt, which was a hard time for both her and her family.  On top of that, her mother and her fathers' family have had a big falling out - which has forced Jess to be in the middle of it all.  Without getting into too many details, Jess has served as the defacto intermediary between the sides.  It's a fine line that she walks in order to stay on both sides' good graces (unfortunately)</p>
+						<p>What can I say about Jess that I haven't already.  She continues to be the glue that keeps this family moving.  She was little worried about coming into this year &mdash; worried that both of her children would be going off to school all day, and that she wouldn't be able to function without them home.  However, she has been able to finally get a few minutes each day to focus on herself, which has had a profound difference in her self-esteem and confidence.</p>
 
-						<p>In brighter news, I finally think Jess has gotten the new house decorated to her liking (for now!).  She was able to furnish our sun room, which was the last room on the list.  This year, she has also learned that she is excellent at crafts!  This seems like a hobby that she has really started to enjoy, and isn't afraid to start or try something new.</p>
+						<p>Jess continues to be a whiz in the kitchen.  Continually finding new recipes that are not only delicious, Gluten Free, but also budget friendly ;)  She has become a pretty good "couponer" and has found the best grocery stores for specific items (you don't dare buy fruit at Gient Eagle, or meat at Aldi's).  I envy her organization skills, because without them our entire family would be completely disorganized!</p>
 
-						<p>Jess has continuously been the engine of our families' train.  She cook, cleans, runs our errands, picks up kids from their activities, keeps our schedule, takes care of us when we're sick, etc..  She is a great wife, and an even better mother.  I am so lucky to have her in my life.</p>
+						<p>When she's not cooking, cleaning, runs our errands or picking up kids, she enjoys a glass of red wine, crafting and decorating the house. Her favorite day is Friday, when the entire family spends the evening eating pizza in the living room and watching Full House (the old versions - the girls love it!), reminding us both of our own childhoods.</p>
 
 						<p><strong><u>Me</u></strong></p>
-						<p>This has been a rollar coaster of a year for me.  As I'm sure you both know, I lost my sister this year.  That was one of the toughest times that I've had to endure in all of my life.  I have been fortunate enough that I have not had to see a lot of death throughout my life, however I have now learned that this inexperience has also made it harder for me to cope/grieve.  </p>
+						<p>This has been another up and down year for me.  It started with rumors at work that we were getting acquired by another company.  In June, those rumors became a reality, and about 75% of the workforce was cut.  I am now employed by a company called Blue Star Sports, which has spent the last 18 months acquiring other companies in the sports/tech industry.</p>
 
-						<p>Work has also been a roller coaster.  At times, I feel like I am the king of that place - I work hard, bosses love me, and I enjoy my coworkers.  However, there are times where I feel like I am not challenged enough intellectually - and wearing too many hats (good at a lot of things, expert at nothing).  I have a great relationship with my direct boss (the President) with a fair salary and the flexibility to work form home, however I find myself disagreeing with a lot of decisions that my CEO makes.  Long story short, the benefits at this job have thus far outweighed the negatives - but, I plan to continue to think through things throughout 2017.</p>
+						<p>When STACK was acquired by Blue Star Sports, I went from working from home 3 days per week, to working from home full-time (which I LOVE).  Things have been going great so far.  As of now, I am in charge of managing both the stack.com and bluestarsports.com websites, as well as managing our digital advertising across the entire network (i.e. the banner ads you see on the websites).  Blue Star Sports is trying to become more organized and structured (a necessity after acquiring nearly 20 companies in 2 years) and I am excited for what the future has to bring.</p>
 
-						<p>Yet, this "void" that I seem to have from work has led me to learning new things outside of work.  I've recently grown a big interest in electrical engineering.  I've started building my own circuits, and really figuring out how certain electronics work (resistors, capacitors, inductors, etc..).  This year I've built two projects that I'm pretty proud of - my retro video game system (over 400+ games from Nintendo, Super Nintendo, Sega, Atari, Nintendo 64, etc..) and my "Alexa" (It's basically an <a href="http://www.amazon.com/echo" target="_blank">Amazon Echo</a> - I can talk/say commands and she will respond with answers).  I've actually sold about 20 retro video game consoles so it's been exciting to see the interest.</p>
+						<p>Having the flexibility of working from home has also allowed me to continue exploring my newly found love for Electrical Engineering and Artificial Intelligence.  I was able to combine both passions earlier this year when I built a system that was able to detect household objects (see picture below).  My more recent AI projects are based around "self learning" AI - meaning that the machine continually retrains itself based on past experiences.</p>
 
-						<p>... and I guess that about sums it up for me.  I want you to both know that I love you very much .. and want to wish you a very Merry Christmas!</p>
+						<p><img class="img-responsive" src="img/AI.jpeg"/></p>
 
-						<p>In case you missed it, here is a <a href="photos.php">link to some photos</a> that we've taken throughout the year!</p>
+						<p>I've also been working on creating "Alexa Skills".  These are basically apps for the Amazon Alexa devices.  Some of my skills have become so popular that Amazon has actually started paying me for some of them (as well as sending a bunch of cool SWAG).  I'm still waiting on my billion dollar idea, but I believe that everything that I've been learning is getting me one step closer.</p>
+
+						<p>Last but not least, I wanted to also <a href="photos.php">share some pictures</a> from throughout the year. I am not good at keeping up with Social Media, so a lot of these have never been seen ;)</p>
+
+						<p>I love you both, and Merry Christmas!</p>
 
 						<p><strong>Matt</strong></p>
 
