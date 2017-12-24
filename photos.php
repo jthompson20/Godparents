@@ -33,7 +33,7 @@
 							while (false !== ($filename = readdir($dh))) {
 							    $files[] = $filename;
 							}
-							$photos =	preg_grep ('/\.PNG$/i', $files);
+							$photos =	preg_grep ('/\.JPG$/i', $files);
 							?>
 
 							<?php foreach ($photos AS $photo): ?>
