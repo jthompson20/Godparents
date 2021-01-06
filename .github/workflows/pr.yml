@@ -12,7 +12,8 @@ jobs:
         uses: actions/checkout@v2
       - name: set-from-branch-name
         run: |
-          echo ${{ github.event.pull_request.head.ref }}
+          console.log(${{ github.event }});
+          echo ${{ github.event.payload.pull_request.head.ref }}
           echo ${{ github.event.ref }}
           echo ${{ github.ref }}
           export "PULL_REQUEST_FROM_BRANCH=${{ github.payload.pull_request.head.ref }}" >> $GITHUB_ENV
