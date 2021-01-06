@@ -17,9 +17,9 @@ jobs:
           echo Master Branch ${{ github.event.master_branch }}
           echo Event Ref ${{ github.event.ref }}
           echo Ref ${{ github.ref }}
-          export "PULL_REQUEST_FROM_BRANCH=refs/heads/test" >> $GITHUB_ENV
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PULL_REQUEST_BRANCH: "master"
+          PULL_REQUEST_FROM_BRANCH: "test"
