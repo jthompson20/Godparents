@@ -10,14 +10,14 @@ jobs:
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     steps:
-      - name: checkout-code
+      - name: checkout-repository
         uses: actions/checkout@v2
       - name: set-source-branch-name
         run: |
-          echo ${{ github.base_ref }}
-          export "source_branch=${{ github.base_ref }}" >> $GITHUB_ENV
-      - name: pull-request
-        id: open-pr
+          echo ${{ github.head_ref }}
+          export "source_branch=${{ github.head_ref }}" >> $GITHUB_ENV
+      - name: create-pull-request
+        id: pr
         uses: repo-sync/pull-request@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -29,7 +29,5 @@ jobs:
           pr_label: "master"                                # Comma-separated list (no spaces)
           pr_draft: true                                    # Creates pull request as draft
           pr_allow_empty: true                              # Creates pull request even if there are no changes
-      - name: output-url
-        run: echo ${{steps.open-pr.outputs.pr_url}}
-      - name: output-number
-        run: echo ${{steps.open-pr.outputs.pr_number}}
+      - name: pull-request-url
+        run: echo ${{steps.pr.outputs.pr_url}}
