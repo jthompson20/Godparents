@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>A Letter to My Godparents - FB</title>
+<title>A Letter to My Godparents - New Feature</title>
 
 <?php include('inc/head.php'); ?>
 
