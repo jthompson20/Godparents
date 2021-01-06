@@ -1,25 +1,35 @@
-name: Auto-Generate PR into Master
+name: PR into Master
 on:
-  push:
-    branches:
+  pull_request:
+    types: [closed]
+    branches: 
       - beta
 jobs:
-  auto-pull-request:
-    name: PullRequestAction
+  pull-request:
+    if: |
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     steps:
       - name: checkout-code
         uses: actions/checkout@v2
-      - name: set-from-branch-name
+      - name: set-source-branch-name
         run: |
-          echo Push Ref ${{ github.push.ref }}
-          echo Event Push Ref ${{ github.event.push.ref }}
-          echo Master Branch ${{ github.event.master_branch }}
-          echo Event Ref ${{ github.event.ref }}
-          echo Ref ${{ github.ref }}
-      - name: pull-request-action
-        uses: vsoch/pull-request-action@1.0.6
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PULL_REQUEST_BRANCH: "master"
-          PULL_REQUEST_FROM_BRANCH: "test"
+          echo ${{ github.base_ref }}
+          export "source_branch=${{ github.base_ref }}" >> $GITHUB_ENV
+      - name: pull-request
+        id: open-pr
+        uses: repo-sync/pull-request@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          destination_branch: "master"                      # If blank, default: master
+          pr_title: "Pulling '${{ github.base_ref }}' into master"            # Title of pull request
+          pr_body: ":crown: *An automated PR*"              # Full markdown support, requires pr_title to be set
+          pr_reviewer: "jthompson20"                        # Comma-separated list (no spaces)
+          pr_assignee: "jthompson20"                        # Comma-separated list (no spaces)
+          pr_label: "master"                                # Comma-separated list (no spaces)
+          pr_draft: true                                    # Creates pull request as draft
+          pr_allow_empty: true                              # Creates pull request even if there are no changes
+      - name: output-url
+        run: echo ${{steps.open-pr.outputs.pr_url}}
+      - name: output-number
+        run: echo ${{steps.open-pr.outputs.pr_number}}
