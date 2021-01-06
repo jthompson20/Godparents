@@ -12,10 +12,6 @@ jobs:
     steps:
       - name: checkout-repository
         uses: actions/checkout@v2
-      - name: set-source-branch-name
-        run: |
-          echo ${{ github.head_ref }}
-          export "source_branch=${{ github.head_ref }}" >> $GITHUB_ENV
       - name: create-pull-request
         id: pr
         uses: repo-sync/pull-request@v2
@@ -23,7 +19,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_branch: "${{ github.head_ref }}"
           destination_branch: "master"                      # If blank, default: master
-          pr_title: "Pulling '${{ github.base_ref }}' into master"            # Title of pull request
+          pr_title: "'${{ github.head_ref }}' into master"            # Title of pull request
           pr_body: ":crown: *An automated PR*"              # Full markdown support, requires pr_title to be set
           pr_reviewer: "jthompson20"                        # Comma-separated list (no spaces)
           pr_assignee: "jthompson20"                        # Comma-separated list (no spaces)
