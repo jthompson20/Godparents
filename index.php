@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>A Letter to My Godparents - New</title>
+<title>A Letter to My Godparents - New Stuff</title>
 
 <?php include('inc/head.php'); ?>
 
