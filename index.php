@@ -24,7 +24,7 @@
 					<div class="panel-heading" id="accordion"><svg class="glyph stroked email"><use xlink:href="#stroked-email"></use></svg> For My Godparents</div>
 					<div class="panel-body">
 						
-						<p><strong>To My Godparents, TEST</strong></p><p>Matt</p>
+						<p><strong>To My Godparents,</strong></p>
 
 						<p>Here we are again!  Another year in the books, another Christmas Season upon us, and another chance for me to take some time to reflect.</p>
 
