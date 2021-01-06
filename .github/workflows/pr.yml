@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
       - name: set-from-branch-name
         run: |
-          export "PULL_REQUEST_FROM_BRANCH=${{ github.ref }}" >> $GITHUB_ENV
+          export "PULL_REQUEST_FROM_BRANCH=${{ github.event.ref }}" >> $GITHUB_ENV
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.6
         env:
