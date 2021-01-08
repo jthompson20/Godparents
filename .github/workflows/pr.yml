@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: checkout-repository
         uses: actions/checkout@v2
+      - name: set-from-branch-name
+        run: |
+          echo ${{ github.repository }}
+          echo ${{ github.ref }}
+          echo ${{ github.sha }}
       - name: create-pull-request
         id: pr
         uses: repo-sync/pull-request@v2
