@@ -12,10 +12,6 @@ jobs:
     steps:
       - name: checkout-repository
         uses: actions/checkout@v2
-      - name: set-from-branch-name
-        run: |
-          echo ${{ github.repository }}
-          echo ${{ github.event.number }}
       - name: create-pull-request
         id: pr
         uses: repo-sync/pull-request@v2
@@ -24,7 +20,7 @@ jobs:
           source_branch: "${{ github.head_ref }}"
           destination_branch: "master"                      # If blank, default: master
           pr_title: "'${{ github.head_ref }}' into master"            # Title of pull request
-          pr_body: "Initial PR merged into beta: [PR ${{ github.event.number }}](https://github.com/${{ github.repository }}/pulls/${{ github.event.number }})"              # Full markdown support, requires pr_title to be set
+          pr_body: "Auto-Generated from [PR ${{ github.event.number }}](https://github.com/${{ github.repository }}/pull/${{ github.event.number }})"              # Full markdown support, requires pr_title to be set
           pr_reviewer: "jthompson20"                        # Comma-separated list (no spaces)
           pr_assignee: "jthompson20"                        # Comma-separated list (no spaces)
           pr_label: "master"                                # Comma-separated list (no spaces)
