@@ -25,4 +25,4 @@ jobs:
           SLACK_MESSAGE: ${{ github.event.pull_request.body }}
           SLACK_TITLE: "New Code Deployed to BETA"
           SLACK_FOOTER: "Powered By MOF GitHub Actions Library"
-          MSG_MINIMAL: ref, event, commit
+          MSG_MINIMAL: ref,event,commit
