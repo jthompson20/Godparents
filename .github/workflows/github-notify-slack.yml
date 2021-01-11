@@ -1,0 +1,27 @@
+name: Notify Slack
+on:
+  pull_request:
+    types: [closed]
+    branches: 
+      - beta
+jobs:
+  slack-notification:
+    if: |
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout-repository
+        uses: actions/checkout@v2
+      - name: slack-notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: digital_innovation_team
+          SLACK_USERNAME: "SlackBot"
+          SLACK_MSG_AUTHOR: $GITHUB_ACTOR
+          #SLACK_ICON: "https://imageurl.com"
+          SLACK_ICON_EMOJI: ":bell:"
+          #SLACK_COLOR: "#EEEEEE"
+          #SLACK_MESSAGE: ""  # default is generated from commit message
+          SLACK_TITLE: "New Code Deployed to BETA"
+          SLACK_FOOTER: "Powered By MOF GitHub Actions Library"
