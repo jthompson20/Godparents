@@ -4,6 +4,7 @@ on:
     types: [closed]
     branches: 
       - beta
+      - master
 jobs:
   slack-notification:
     if: |
@@ -18,10 +19,10 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_CHANNEL: digital_innovation_team
           SLACK_USERNAME: "GitHub Notification Bot"
-          #SLACK_MSG_AUTHOR: $GITHUB_ACTOR
           #SLACK_ICON: "https://imageurl.com"
-          SLACK_ICON_EMOJI: ":bell:"
+          SLACK_ICON_EMOJI: ":mega:"
           #SLACK_COLOR: "#EEEEEE"
           SLACK_MESSAGE: ${{ github.event.pull_request.body }}
           SLACK_TITLE: "New Code Deployed to BETA"
           SLACK_FOOTER: "Powered By MOF GitHub Actions Library"
+          MSG_MINIMAL: ref, event, commit
