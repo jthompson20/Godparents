@@ -12,15 +12,9 @@ jobs:
     steps:
       - name: checkout-repository
         uses: actions/checkout@v2
-      - name: get-commit-message
-        run: |
-          echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
-      - name: show-commit-message
-        run: echo $commitmsg
       - name: slack-notification
         uses: rtCamp/action-slack-notify@v2
         env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_CHANNEL: digital_innovation_team
           SLACK_USERNAME: "GitHub Notification Bot"
@@ -28,6 +22,6 @@ jobs:
           #SLACK_ICON: "https://imageurl.com"
           SLACK_ICON_EMOJI: ":bell:"
           #SLACK_COLOR: "#EEEEEE"
-          SLACK_MESSAGE: $commitmsg
+          SLACK_MESSAGE: ${{ github.event.head_commit.message }}
           SLACK_TITLE: "New Code Deployed to BETA"
           SLACK_FOOTER: "Powered By MOF GitHub Actions Library"
