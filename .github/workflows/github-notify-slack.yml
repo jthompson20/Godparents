@@ -22,6 +22,6 @@ jobs:
           #SLACK_ICON: "https://imageurl.com"
           SLACK_ICON_EMOJI: ":bell:"
           #SLACK_COLOR: "#EEEEEE"
-          SLACK_MESSAGE: ${{ github.event.head_commit.message }}
+          SLACK_MESSAGE: ${{ github.event.pull_request.body }}
           SLACK_TITLE: "New Code Deployed to BETA"
           SLACK_FOOTER: "Powered By MOF GitHub Actions Library"
