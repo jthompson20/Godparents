@@ -8,7 +8,6 @@
 <?php include('inc/head.php'); ?>
 
 </head>
-
 <body>
 
 	<?php include('inc/navbar.php'); ?>
