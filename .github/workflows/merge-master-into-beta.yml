@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: checkout-repository
         uses: actions/checkout@v2
+      - name: checkout-beta
         run: |
           git checkout beta
+      - name: merge-master
+        run: |
           git merge master
