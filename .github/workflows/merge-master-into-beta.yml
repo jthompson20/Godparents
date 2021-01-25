@@ -1,0 +1,20 @@
+name: Merge Master into Beta
+on:
+  pull_request:
+    types: [closed]
+    branches: 
+      - master
+jobs:
+  master-to-beta:
+    if: |
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout-repository
+        uses: actions/checkout@v2
+      - name: checkout-beta
+        run: |
+          git checkout beta
+      - name: merge-master
+        run: |
+          git merge master
